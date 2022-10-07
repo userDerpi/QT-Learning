@@ -13,6 +13,9 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #212121</string>
+  </property>
   <property name="tabShape">
    <enum>QTabWidget::Triangular</enum>
   </property>
@@ -35,13 +38,20 @@
           <layout class="QHBoxLayout" name="usernameLayout">
            <item>
             <widget class="QLabel" name="userLabel">
+             <property name="styleSheet">
+              <string notr="true">color: #FBFAF5</string>
+             </property>
              <property name="text">
               <string>Username</string>
              </property>
             </widget>
            </item>
            <item>
-            <widget class="QLineEdit" name="userInput"/>
+            <widget class="QLineEdit" name="userInput">
+             <property name="styleSheet">
+              <string notr="true">background-color: #FBFAF5</string>
+             </property>
+            </widget>
            </item>
           </layout>
          </item>
@@ -49,13 +59,20 @@
           <layout class="QHBoxLayout" name="pwLayout">
            <item>
             <widget class="QLabel" name="pwLabel">
+             <property name="styleSheet">
+              <string notr="true">color: #FBFAF5</string>
+             </property>
              <property name="text">
               <string>Password </string>
              </property>
             </widget>
            </item>
            <item>
-            <widget class="QLineEdit" name="pwInput"/>
+            <widget class="QLineEdit" name="pwInput">
+             <property name="styleSheet">
+              <string notr="true">background-color: #FBFAF5</string>
+             </property>
+            </widget>
            </item>
           </layout>
          </item>
@@ -63,6 +80,9 @@
        </item>
        <item>
         <widget class="QPushButton" name="loginButton">
+         <property name="styleSheet">
+          <string notr="true">color: #FBFAF5</string>
+         </property>
          <property name="text">
           <string>Login</string>
          </property>
@@ -71,7 +91,11 @@
       </layout>
      </item>
      <item>
-      <widget class="QTextEdit" name="textEdit"/>
+      <widget class="QTextEdit" name="textEdit">
+       <property name="styleSheet">
+        <string notr="true">background-color: #FBFAF5</string>
+       </property>
+      </widget>
      </item>
     </layout>
    </widget>
